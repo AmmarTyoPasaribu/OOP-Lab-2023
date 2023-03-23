@@ -11,7 +11,7 @@ _Untuk perintah yang dibungkus < > maka perintah tersebut diganti sesuai instruk
   ```
 - Pindah ke repositori hasil clone dengan perintah berikut
   ```
-  cd lab-oop/src/
+  cd OOP-Lab-2023
   ```
 - Buat branch baru berdasarkan NIM kalian serta gunakan branch tersebut untuk menyimpan kode dari soal yang dikerjakan
   ```
