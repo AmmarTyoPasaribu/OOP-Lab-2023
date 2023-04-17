@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Bangun {
+public class Bangun2 {
     static Scanner inp = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -35,88 +35,90 @@ public class Bangun {
         
         switch (menu) {
             case 1:
-             Kubus kubus = new Kubus();
-             System.out.print("Masukkan sisi = ");
-             kubus.sisi= inp.nextInt();
-             kubus.luasPermukaankubus();
+            System.out.print("Masukkan sisi = ");
+            double sisi = inp.nextDouble();
+            Kubus2 kubus = new Kubus2(sisi);
+            kubus.luasPermukaankubus();
              lanjut();
                 break;
-            case 2: 
-            Balok balok = new Balok();
+            case 2:
+            
             System.out.print("Masukkan panjang = ");
-            balok.panjang=inp.nextInt();
+            double panjang = inp.nextDouble();
             System.out.print("Masukkan lebar = ");
-            balok.lebar=inp.nextInt();
+            double lebar=inp.nextDouble();
             System.out.print("Masukkan tinggi = ");
-            balok.tinggi=inp.nextInt();
+            double tinggi=inp.nextDouble();
+            Balok2 balok = new Balok2(panjang,lebar,tinggi);
             balok.luasPermukaanBalok();
             lanjut();
             break;
             case 3:
-            Bola bola=new Bola();
             System.out.print("Masukkan jarijari = ");
-            bola.jarijari=inp.nextInt();
+            double jarijari=inp.nextDouble();
+            Bola2 bola=new Bola2(jarijari);
             bola.luasPermukaanBola();
             lanjut();
             break;
             case 4:
-            Tabung tabung= new Tabung();
             System.out.print("Masukkan jarijari = ");
-            tabung.jarijari=inp.nextInt();
+            double jarijaritabung=inp.nextDouble();
             System.out.print("Masukkan tinggi = ");
-            tabung.tinggi=inp.nextInt();
+            double tinggitabung=inp.nextDouble();
+            Tabung2 tabung= new Tabung2(jarijaritabung,tinggitabung);
+            tabung.luasPermukaanTabung();
             lanjut();
             break;
             case 5:
-            Persegi persegi=new Persegi();
             System.out.print("Masukkan sisi = ");
-            persegi.sisiD=inp.nextInt();
+            double sisina=inp.nextDouble();
+            Persegi2 persegi=new Persegi2(sisina);
             persegi.luasPersegi();
             lanjut();
             break;
             case 6:
-            PersegiPanjang persegiPanjang=new PersegiPanjang();
             System.out.print("Masukkan panjang = ");
-            persegiPanjang.panjangD=inp.nextInt();
+            double panjangper=inp.nextDouble();
             System.out.print("Masukkan lebar = ");
-            persegiPanjang.lebarD=inp.nextInt();
+            double lebarper=inp.nextDouble();
+            PersegiPanjang2 persegiPanjang=new PersegiPanjang2(panjangper,lebarper);
             persegiPanjang.luasPersegiPanjang();
             lanjut();
             break;
             case 7:
-            Lingkaran lingkaran=new Lingkaran();
             System.out.print("Masukkan jarijari = ");
-            lingkaran.jarijariD=inp.nextInt();
+            double jarijariling=inp.nextDouble();
+            Lingkaran2 lingkaran=new Lingkaran2(jarijariling);
             lingkaran.luasLingkaran();
             lanjut();
             break;
             case 8:
-            Segitiga segitiga=new Segitiga();
             System.out.print("Masukkan alas = ");
-            segitiga.alas= inp.nextInt();
+            double alass= inp.nextDouble();
             System.out.print("Masukkan tinggi = ");
-            segitiga.tinggiD=inp.nextInt();
+            double tinggii=inp.nextDouble();
             System.out.print("Masukkan sisi = ");
-            segitiga.sisiD=inp.nextInt();
+            double sisii=inp.nextDouble();
+            Segitiga2 segitiga=new Segitiga2(alass,tinggii,sisii);
             segitiga.luasSegitiga();;
             lanjut();
             break;
             case 9:
-            Trapesium trapesium= new Trapesium();
             System.out.print("Masukkan sisiA = ");
-            trapesium.sisiAA=inp.nextInt();
+            double tinggiuy=inp.nextDouble();
             System.out.print("Masukkan sisiB = ");
-            trapesium.sisiBB=inp.nextInt();
+            double  sisisejajar12=inp.nextDouble();
             System.out.print("Masukkan sisiC = ");
-            trapesium.sisiCC=inp.nextInt();
+            double  sisisejajar13=inp.nextDouble();
             System.out.println("Masukkan sisiD = ");
-            trapesium.sisiDD=inp.nextInt();
+            double sisiA=inp.nextDouble();
             System.out.println("Masukkan sisisejajar1 = ");
-            trapesium.sisisejajar1=inp.nextInt();
+            double sisiB=inp.nextDouble();
             System.out.print("Masukkan sisisejajar2 = ");
-            trapesium.sisisejajar2=inp.nextInt();
+            double sisiC=inp.nextDouble();
             System.out.print("Masukkan tinggi = ");
-            trapesium.tinggiD=inp.nextInt();
+            double sisiD=inp.nextDouble();
+            Trapesium2 trapesium= new Trapesium2(tinggiuy,sisisejajar12,sisisejajar13,sisiA,sisiB,sisiC,sisiD);
             trapesium.luasTrapesium();;
             lanjut();;
             break;
