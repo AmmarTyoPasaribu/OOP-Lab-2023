@@ -2,6 +2,9 @@ package H071221005.Pertemuan_05.assignment_05_01;
 
 import java.lang.Math;
 public class Persegi extends BangunDatar {
+    public Persegi(double panjang) {
+        super(panjang);
+    }
     public double LuasPersegi() {
         return getPanjang() * getPanjang();
     }

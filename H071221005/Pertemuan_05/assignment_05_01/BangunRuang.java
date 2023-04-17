@@ -1,7 +1,14 @@
 package H071221005.Pertemuan_05.assignment_05_01;
 
 public class BangunRuang{
-    double panjang,lebar,tinggi,jari;
+    double panjang;
+
+    public BangunRuang() {
+    }
+
+    public BangunRuang(double panjang) {
+        this.panjang = panjang;
+    }
 
     public double getPanjang() {
         return panjang;
@@ -11,29 +18,6 @@ public class BangunRuang{
         this.panjang = panjang;
     }
 
-    public double getLebar() {
-        return lebar;
-    }
-
-    public void setLebar(double lebar) {
-        this.lebar = lebar;
-    }
-
-    public double getTinggi() {
-        return tinggi;
-    }
-
-    public void setTinggi(double tinggi) {
-        this.tinggi = tinggi;
-    }
-
-    public double getJari() {
-        return jari;
-    }
-
-    public void setJari(double jari) {
-        this.jari = jari;
-    } 
     public void detailBangunRuang(){
         System.out.println("============= BANGUN RUANG =============");
         System.out.println("1. KUBUS");

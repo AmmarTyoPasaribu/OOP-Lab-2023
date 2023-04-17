@@ -2,30 +2,13 @@ package H071221005.Pertemuan_05.assignment_05_01;
 
 
 public class BangunDatar {
-    double panjang,lebar,tinggi,alas,a,b,c,d,jari;
-
-    public double getD() {
-        return d;
+    double panjang;
+    
+    public BangunDatar() {
     }
 
-    public void setD(double d) {
-        this.d = d;
-    }
-
-    public double getC() {
-        return c;
-    }
-
-    public void setC(double c) {
-        this.c = c;
-    }
-
-    public double getLebar() {
-        return lebar;
-    }
-
-    public void setLebar(double lebar) {
-        this.lebar = lebar;
+    public BangunDatar(double panjang) {
+        this.panjang = panjang;
     }
 
     public double getPanjang() {
@@ -36,45 +19,6 @@ public class BangunDatar {
         this.panjang = panjang;
     }
 
-    public double getTinggi() {
-        return tinggi;
-    }
-
-    public void setTinggi(double tinggi) {
-        this.tinggi = tinggi;
-    }
-
-    public double getAlas() {
-        return alas;
-    }
-
-    public void setAlas(double alas) {
-        this.alas = alas;
-    }
-
-    public double getA() {
-        return a;
-    }
-
-    public void setA(double a) {
-        this.a = a;
-    }
-
-    public double getB() {
-        return b;
-    }
-
-    public void setB(double b) {
-        this.b = b;
-    }
-
-    public double getJari() {
-        return jari;
-    }
-
-    public void setJari(double jari) {
-        this.jari = jari;
-    }
     public void detailBangunDatar(){
         System.out.println("============= BANGUN RUANG =============");
         System.out.println("5. PERSEGi");
