@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) { // instance objek
         Scanner sc = new Scanner(System.in);
         ruang ruang = new ruang();
         datar datar = new datar();
 
-        while (true){
+        while (true){ // perulangan ini untuk menampilkan menu yang akan dipilih secara terus menerus secara sistematis mengikuti pengkodisian
             System.out.println("===== MENU =====");
             System.out.println("1. BANGUN RUANG\n2. BANGUN DATAR");
             System.out.print(">");

@@ -1,11 +1,13 @@
 package login_app.models;
 
 public class Profile {
+    // membuat attribut
     private String fullName;
     private int age;
     private String hobby;
     private String nickname;
     
+    // setter dan getter untuk set nilai atribut dan dan mengembalikan nilainya
     public String getFullName() {
         return fullName;
     }

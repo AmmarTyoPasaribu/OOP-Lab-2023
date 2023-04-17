@@ -1,9 +1,11 @@
 package no1;
 
 public class dimensi {
+    //membuat atribut
     public int panjang, lebar, tinggi, jari;
     public final double phi = Math.PI;
 
+    //method volume , luas permukaan, luas dan keliling untuk menampilkan keterangan hasil perhitungan bangun ruang atau datar
     public void volume(String bangun){
         System.out.printf("VOLUME %s ADALAH\n>", bangun);
     }
@@ -20,7 +22,7 @@ public class dimensi {
     public dimensi(){
 
     }
-
+    //setter dan getter untuk set nilai dan mengembalikan nilai
     public int getJari() {
         return jari;
     }

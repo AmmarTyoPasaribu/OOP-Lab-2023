@@ -1,6 +1,5 @@
-// package DLL.Wifi;
 public class Wifi {
-    String nama;
+    String nama; //membuat atribut
     int kecepatan, cakupanArea, harga, Luasdaerah;
 
 
@@ -8,7 +7,7 @@ public class Wifi {
 
     }
 
-    public Wifi(String nama, int kecepatan, int cakupanArea, int harga, int luasdaerah) {
+    public Wifi(String nama, int kecepatan, int cakupanArea, int harga, int luasdaerah) { //membuat constructor
         this.nama = nama;
         this.kecepatan = kecepatan;
         this.cakupanArea = cakupanArea;
@@ -17,7 +16,7 @@ public class Wifi {
     }
 
 
-    public void tampilkanPower() {
+    public void tampilkanPower() { // method ini berfungsi untuk menampilkan informasi wifi (nama, kecepatan, harga dan cakupan area)
         System.out.println("\n========== Power Wifi ==========");
         System.out.println("Nama Wifi     : " + this.getNama());
         System.out.println("Kecepatan Wifi Sebesar " + this.getKecepatan() + " MBPS ");
@@ -25,7 +24,7 @@ public class Wifi {
         System.out.println("Area jangkauan wifi ini sebesar " + this.getCakupanArea() + " Meter ");
     }
 
-    public void upgradeWifi(int cakupanArea) { 
+    public void upgradeWifi(int cakupanArea) { // method ini berfungsi untuk upgrade wifi dengan syarat pengkodisian luas daerah harus lebih kecil dari cakupan
         if (cakupanArea > this.Luasdaerah) { 
             System.out.println("Tidak bisa Menambah Luas Area jaringan");
         } else {

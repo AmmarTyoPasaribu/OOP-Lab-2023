@@ -1,5 +1,6 @@
 
 class Player {
+    // membuat attribut
     private String name;
     private int hp;
     private int attackPower;
@@ -11,20 +12,13 @@ class Player {
             this.attackPower = attackPower;
             this.defense = defense;
         }
-    
-        //constructor
-        // public Player(String name, int defense) {
-        //     this.name = name;
-        //     this.hp = 100;
-        //     this.attackPower = 0;
-        //     this.defense = defense;
-        // }
 
-    public void getDamage(Player enemy) {
+
+    public void getDamage(Player enemy) { 
         hp = hp - Math.abs(enemy.getAttackPower() - defense);
     }
 
-    public void status() {
+    public void status() {// menampilkan status karakter
         System.out.println(name + " status");
         System.out.println("HP = " + hp);
         System.out.println("Defense = " + defense);
@@ -54,13 +48,3 @@ class Player {
     }
 }
 
-// public class Main {
-// public static void main(String [] args) {
-// Player player1 = new Player("Mino", 30, 15);
-// Player player2 = new Player("Hilda", 100, 35);
-// player2.setDefense(10);
-// player1.getDamage(player2);
-// player1.status();
-// player2.status();
-// }
-// }

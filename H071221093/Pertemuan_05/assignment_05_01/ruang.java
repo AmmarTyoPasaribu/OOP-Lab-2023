@@ -1,7 +1,7 @@
 package no1;
 
 public class ruang extends dimensi {
-    public void showOption(){
+    public void showOption(){ // showOption berfungsi untuk menampilkan opsi pilihan bangun ruang
         System.out.println("==== BANGUN RUANG ====");
         System.out.println("1. KUBUS");
         System.out.println("2. BALOK");
@@ -10,6 +10,7 @@ public class ruang extends dimensi {
         System.out.print(">");
     }
 
+        // method berikut berfungsi untuk menghitung bangun ruang
     public void kubus(int panjang, int lebar, int tinggi){
         volume("KUBUS");
         System.out.println(panjang*lebar*tinggi);

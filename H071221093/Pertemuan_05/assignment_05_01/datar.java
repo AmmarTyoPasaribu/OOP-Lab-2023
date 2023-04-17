@@ -1,7 +1,7 @@
 package no1;
 
 public class datar extends dimensi {
-    public void showOption(){
+    public void showOption(){ // showOption berfungsi untuk menampilkan opsi pilihan bangun datar
         System.out.println("==== BANGUN DATAR ====");
         System.out.println("1. PERSEGI");
         System.out.println("2. PERSEGI PANJANG");
@@ -11,6 +11,7 @@ public class datar extends dimensi {
         System.out.print(">");
     }
 
+    // method berikut berfungsi untuk menghitung bangun datar
     public void persegi(int panjang, int lebar){
         luas("PERSEGI");
         System.out.println(panjang*lebar);
