@@ -1,0 +1,3 @@
+interface Teknologi {
+    void move();
+}
