@@ -1,0 +1,145 @@
+/* Gaya untuk elemen Button */
+.button {
+    -fx-background-color: #a38d20; /* Warna latar belakang */
+    -fx-text-fill: #db6e02; /* Warna teks */
+    -fx-font-size: 20px; /* Ukuran font */
+    -fx-padding: 16px 32px; /* Padding */
+}
+
+/* Gaya untuk elemen Label */
+.label {
+    -fx-font-family:"Poppins";
+    -fx-font-size: 35px; /* Ukuran font */
+    -fx-font-weight: bold; /* Ketebalan font */
+    -fx-text-fill: #2b546a; /* Warna teks */
+}
+
+.label1 {
+    -fx-font-family:"Poppins";
+    -fx-font-size: 25px; /* Ukuran font */
+    -fx-font-weight: bold; /* Ketebalan font */
+    -fx-text-fill: #2b546a; /* Warna teks */
+}
+/* Gaya untuk elemen TextField */
+.text-field {
+    -fx-pref-width: 200px; /* Lebar preferensi */
+    -fx-font-size: 14px; /* Ukuran font */
+}
+
+/* Gaya untuk elemen ComboBox */
+.combo-box {
+    -fx-pref-width: 200px; /* Lebar preferensi */
+    -fx-font-size: 14px; /* Ukuran font */
+}
+
+/* Gaya untuk elemen TableView */
+.table-view {
+    -fx-pref-width: 400px; /* Lebar preferensi */
+    -fx-pref-height: 300px; /* Tinggi preferensi */
+}
+
+/* Gaya untuk elemen TableColumn */
+.table-column {
+    -fx-pref-width: 100px; /* Lebar preferensi */
+    -fx-alignment: CENTER; /* Penyelarasan teks */
+}
+
+/* Gaya untuk elemen ListView */
+.list-view {
+    -fx-pref-width: 200px; /* Lebar preferensi */
+    -fx-pref-height: 200px; /* Tinggi preferensi */
+}
+
+/* Gaya untuk elemen TextArea */
+.text-area {
+    -fx-pref-width: 200px; /* Lebar preferensi */
+    -fx-pref-height: 100px; /* Tinggi preferensi */
+    -fx-font-size: 14px; /* Ukuran font */
+}
+
+.buttonAll {
+	-fx-text-fill: #fbfbfb;
+	-fx-font-size: 35px;
+	-fx-font-weight: bold;
+	-fx-min-width: 171px;
+	-fx-min-height: 38px;
+	-fx-background-radius: 35px;
+	-fx-effect: dropshadow(three-pass-box, rgba(75, 68, 68, 0.3), 7, 0, 0, 0);
+    -fx-transition: all 0.7s ease;
+	-fx-border-radius: 30px;
+	-fx-padding: 8px 16px;
+    -fx-background-radius: 20px;
+}
+
+.buttonAll:hover{
+    -fx-background-color: #9d3030;
+}
+
+.buttonAll:pressed{
+    -fx-translate-y: 2px;
+}
+
+.buttonAct {
+    -fx-font-family: "Poppins";
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-background-color: #a38d20;
+    -fx-text-fill: #ffffff;
+    -fx-background-radius: 100;
+}
+
+.buttonAct:hover{
+    -fx-background-color: #29843c;
+}
+
+.buttonAct:pressed{
+    -fx-translate-y: 2px;
+}
+
+
+.buttonHitung {
+    -fx-font-family: "Poppins";
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-background-color: #a38d20;
+    -fx-text-fill: #ffffff;
+    -fx-background-radius: 40;
+
+}
+
+.buttonHitung:hover{
+    -fx-background-color: #29843c;
+}
+
+.buttonHitung:pressed{
+    -fx-translate-y: 2px;
+}
+
+.myTextField {
+    -fx-background-color: rgb(255, 255, 255);
+    -fx-text-fill: black;
+    -fx-font-family: "Poppins";
+    -fx-font-size: 12px;
+    -fx-padding: 5px;
+    -fx-prompt-text-fill: rgb(98, 96, 96);
+    -fx-border-radius: 8px;
+    -fx-effect: dropshadow(three-pass-box, rgba(75, 68, 68, 0.3), 6, 0, 0, 0);
+}
+
+.buttonOperasi {
+    -fx-font-family: "Poppins";
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-background-color: #a69332;
+    -fx-text-fill: #ffffff;
+    -fx-background-radius: 40;
+
+}
+
+.buttonOperasi:hover{
+    -fx-background-color: #29843c;
+}
+
+.buttonOperasi:pressed{
+    -fx-translate-y: 4px;
+}
