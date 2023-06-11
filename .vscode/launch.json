@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "assignment_07_02",
+            "request": "launch",
+            "mainClass": "assignment_07_02",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "assignment_07_03",
+            "request": "launch",
+            "mainClass": "H071221005.Pertemuan_07.assignment_07_03",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "assignment_07_01",
+            "request": "launch",
+            "mainClass": "H071221005.Pertemuan_07.assignment_07_01",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Product",
+            "request": "launch",
+            "mainClass": "Product",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "helloapp.App",
+            "projectName": "app"
+        }
+    ]
+}
