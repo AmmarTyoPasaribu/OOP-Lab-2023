@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "assignment_07_02",
+            "request": "launch",
+            "mainClass": "assignment_07_02",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "assignment_07_03",
+            "request": "launch",
+            "mainClass": "H071221005.Pertemuan_07.assignment_07_03",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "assignment_07_01",
+            "request": "launch",
+            "mainClass": "H071221005.Pertemuan_07.assignment_07_01",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "Product",
             "request": "launch",
             "mainClass": "Product",

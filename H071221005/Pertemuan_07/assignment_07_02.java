@@ -1,6 +1,6 @@
 import java.time.LocalDate; // import supaya format nanti bisa dalam bentuk tahun,bulan, dan hari 
 
-public class Product<T> { // kelas yang bertipe generik T
+public class assignment_07_02<T> { // kelas yang bertipe generik T
     String name;
     T price; // type data generik agar bisa diganti ganti type attribut nya
     LocalDate expiryDate;
@@ -14,7 +14,7 @@ public class Product<T> { // kelas yang bertipe generik T
     public String getName() {
         return name;
     }
-    
+
     public T getPrice() {
         return price;
     }
